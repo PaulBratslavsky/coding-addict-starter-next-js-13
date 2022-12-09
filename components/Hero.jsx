@@ -13,7 +13,7 @@ const data = {
     href: "/",
   },
   image: {
-    url: "https://unsplash.it/640/425?random",
+    url: "https://unsplash.it/540/425?random",
   },
 };
 
@@ -30,7 +30,7 @@ export default function CTA() {
       id={linkId}
       className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center my-24 mx-4"
     >
-      <div className="xl:mt-8">
+      <div>
         <div className="text-3xl lg:text-6xl xl:text-8xl text-color-gray tracking-1px font-extrabold">
           <HighlightedHeading
             heading={heading}
@@ -83,7 +83,7 @@ export default function CTA() {
           loading="lazy"
           className="custom-height"
           src={image.url}
-          alt="saly"
+          alt="Hero Image"
           fill
         />
       </div>
